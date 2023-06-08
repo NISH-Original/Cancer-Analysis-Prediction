@@ -1,3 +1,4 @@
 # Cancer Data Analysis and Prediction
-This is a project about analysing and making predictions on cancer data whether a given cancer cell is Benign or Malignant.
-Here, we use a $K$-nn classification model with cross validation for making predictions on the dataset.
+Cancer tumors are mainly of two types, Benign and Malignant. While none of these types are 'good', both of these function in different ways. Benign cancer does not invade and spread like Malignant cancer, and is generally less painful, but still lethal. Early detection of cancer and its type is essential for the treatment of patients, which calls for the question that we want to address: Is a new observation Benign or Malignant based on the mean statistics of the observation as our predictors?
+
+This classification model trains on a cancer dataset (with 567 observations) which contains statistics of various cancer cells and classifies them as either Benign (B) or Malignant (M). In this project, we will analyse the dataset, use the $K$-nearest neighbors machine learning classification algorithm make predictions, and then assess the accuracy of our predictive analysis.
